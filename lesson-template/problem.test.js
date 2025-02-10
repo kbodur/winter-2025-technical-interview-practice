@@ -1,4 +1,4 @@
-const isEvenOrOdd = require("./problem"); // Doğru dosyayı çağır
+const isEvenOrOdd = require("./problem");
 
 describe("isEvenOrOdd", () => {
     test("should return 'Even' for even numbers", () => {
