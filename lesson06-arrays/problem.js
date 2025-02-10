@@ -5,6 +5,8 @@
  * @param {number[]} nums - The integer array.
  * @returns {number} - The index of the largest element if it meets the condition, otherwise -1.
  */
-function checkLargestElement(nums) {}
+function checkLargestElement(nums) {
+    return Math.max(...nums)
+}
 
 module.exports = checkLargestElement;
